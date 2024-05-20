@@ -22,6 +22,6 @@
 <p>
   - Flow thực hiện quá trình CI/CD một cách tự động từ build code, tự động hóa, deploy
 </p>
-<img src="img/workflows.png" width = 100%/>
+<img src="img/workflow.png" width = 100%/>
 
 
