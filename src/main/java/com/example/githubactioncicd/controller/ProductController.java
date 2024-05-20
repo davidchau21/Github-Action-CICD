@@ -18,7 +18,7 @@ public class ProductController {
         return productRepository.save(product);
     }
     // production
-
+    // fix error
     @GetMapping("/products")
     public List<Product> getAllProduct(){
         return productRepository.findAll();
