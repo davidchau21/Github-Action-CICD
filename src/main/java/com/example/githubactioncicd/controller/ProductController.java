@@ -12,19 +12,13 @@ import java.util.List;
 public class ProductController {
     @Autowired
     private ProductRepository productRepository;
-    //Hello
+    //Hello fan
     @PostMapping("/products")
     public Product addProduct(@RequestBody Product product){
         return productRepository.save(product);
     }
 
-    //Hello features/test 1
 
-    //Hello features/test 2
-
-    //Hello features/test 3
-
-    //Hello features/test 4
 
     @GetMapping("/products")
     public List<Product> getAllProduct(){
