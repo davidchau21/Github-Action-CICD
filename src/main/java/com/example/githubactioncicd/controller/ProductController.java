@@ -17,8 +17,7 @@ public class ProductController {
     public Product addProduct(@RequestBody Product product){
         return productRepository.save(product);
     }
-
-
+    // production
 
     @GetMapping("/products")
     public List<Product> getAllProduct(){
