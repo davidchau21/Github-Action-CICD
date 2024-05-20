@@ -20,6 +20,7 @@ public class ProductController {
     // production
     // fix error
     // hello features/test 1
+    // hello features/test 2
     @GetMapping("/products")
     public List<Product> getAllProduct(){
         return productRepository.findAll();
